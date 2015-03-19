@@ -12,3 +12,9 @@ Material.find_each do |materia|
     material.do_something
 end
 ```
+
+### When 'bundle install' is being stupid and doesn't work with 'pg' gem
+Use:
+```ruby
+ARCHFLAGS="-arch x86_64" bundle install
+```
