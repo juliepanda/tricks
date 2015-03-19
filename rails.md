@@ -15,6 +15,7 @@ end
 
 ### When 'bundle install' is being stupid and doesn't work with 'pg' gem
 Use:
-```ruby
-ARCHFLAGS="-arch x86_64" bundle install
-```
+`ARCHFLAGS="-arch x86_64" bundle install`
+
+#### Before pushing on Heroku, clean up /tmp/ with:
+'rake tmp:clear'
