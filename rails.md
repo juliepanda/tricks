@@ -13,9 +13,9 @@ Material.find_each do |material|
 end
 ```
 
-### When 'bundle install' is being stupid and doesn't work with 'pg' gem
+#### When 'bundle install' is being stupid and doesn't work with 'pg' gem
 Use:
 `ARCHFLAGS="-arch x86_64" bundle install`
 
 #### Before pushing on Heroku, clean up /tmp/ with:
-'rake tmp:clear'
+`rake tmp:clear`
