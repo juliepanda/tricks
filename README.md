@@ -5,7 +5,7 @@ create .gitignore file<br>
 put <FILE_LOCATION> inside .gitignore <br>
 
 move to file location <br>
-`ls <FILE_LOCATION>` <br>
+`cd <FILE_LOCATION>` <br>
 
 remove/untrack file from git<br>
     ```git rm -r --cached <FILE_NAME>```<br>
