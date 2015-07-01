@@ -1,5 +1,5 @@
 #### if vim is complaining about .swp, do this in your /.vimrc.local
-```set backupdir=/var/tmp,/tmp```
+```set backupdir=/var/tmp,/tmp```<br>
 ```set directory=/var/tmp,/tmp```
 #### Now you can just nuke the swap files in one swoop when you are annoyed:
 ```rm -rf /var/tmp/*.swp```
