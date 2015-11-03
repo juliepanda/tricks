@@ -23,3 +23,9 @@ remove/untrack file from git<br>
 commit && push<br>
     ```git add.```<br>
     ```git commit -m 'add files to gitignore'```
+
+change shell (since I tried out zsh)
+```bash
+chsh -s <SHELL_PATH>
+```
+SHELL_PATH is usually `/bin/bash` or `/bin/zsh`
