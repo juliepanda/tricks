@@ -1,7 +1,11 @@
 ### Vim reminders
+#####Use vi-mode in Bash
+```set -o vi```
+<br><br>
 #####close all windows but the one you are in
 ```<Ctrl>W``` then ```o```
 <br><br>
+
 #####if vim is complaining about .swp, do this in your /.vimrc.local <br>
 ```set backupdir=/var/tmp,/tmp```<br>
 ```set directory=/var/tmp,/tmp```
