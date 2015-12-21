@@ -1,7 +1,7 @@
 ### Vim reminders
 #####Use vi-mode in Bash
 ```set -o vi```
-<br><br>
+<br>
 #####close all windows but the one you are in
 ```<Ctrl>W``` then ```o```
 <br><br>
@@ -44,3 +44,12 @@ commit && push<br>
 #####how to change shell (bash/zsh/etc)<br>
 `chsh -s <SHELL_PATH>`
 where `SHELL_PATH` is usually `/bin/bash` or `/bin/zsh`
+
+#####how to create a symlink<br>
+```bash
+  cd /
+  mkdir /A; mkdir /B
+  touch /A/X; touch /B/Y
+  ln -s /B/Y /A/New
+ ```
+ `A/New` is now a symlinked to `/B/Y`
